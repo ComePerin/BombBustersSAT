@@ -391,7 +391,7 @@ def build_step1_instance() -> InstanceData:
     }
 
     # Partial observations: known values are set, unknowns are None.
-    obs_p1 = [1, 1, 2, 2, 3, None, None, 7, None, None, None, None, 12]
+    obs_p1 = [1, 1, 2, 2, 3, 4, 6, 7, 9, 9, 10, 11.5, 12]
     obs_p2 = [1, 2, 3, 3, None, None, None, None, None, 8, 8, 10]
     obs_p3 = [None, None, None, None, 7, None, None, None, None, None, None, 12, None]
     obs_p4 = [1, 2, 3, None, None, None, 7, 7, None, 10, 11, None, None]
